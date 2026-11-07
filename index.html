@@ -1,17 +1,67 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#06121F" />
-    <link rel="icon" type="image/png" href="/brand/favicon.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <meta name="format-detection" content="telephone=no" />
-    <title>VESTIALPRO · Ropa laboral y EPI en Torre Pacheco</title>
-    <!--app-head-->
-  </head>
-  <body data-page="home">
-    <div id="root"><!--app-html--></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="VESTIALPRO: ropa de trabajo y equipos de protección individual en Torre Pacheco, Murcia.">
+  <title>VESTIALPRO | Ropa laboral y EPI</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topbar"><span>● Torre Pacheco · Murcia</span><span>Ropa de trabajo · EPI · Asesoramiento</span></div>
+    <div class="nav-wrap">
+      <a class="brand" href="#inicio" aria-label="VESTIALPRO, inicio"><img src="logo.png" alt="VESTIALPRO"></a>
+      <nav aria-label="Navegación principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Sobre nosotros</a>
+        <a href="#normativa">Normativa</a>
+        <a href="#catalogos">Catálogos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="button button-small" href="#contacto">Solicitar información <span>→</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">VESTIALPRO · PROTECCIÓN LABORAL</p>
+        <h1>Protección que<br><em>se lleva puesta.</em></h1>
+        <p class="hero-text">Vestuario técnico y equipos de protección individual para trabajar con seguridad, comodidad y una imagen profesional.</p>
+        <div class="hero-actions"><a class="button" href="#contacto">Cuéntanos tu necesidad <span>→</span></a><a class="text-link" href="#normativa">Ver normativa <span>↗</span></a></div>
+        <div class="hero-facts"><span><strong>I–III</strong> categorías EPI</span><span><strong>UNE-EN</strong> selección técnica</span><span><strong>48–72 h</strong> entregas regionales</span></div>
+      </div>
+      <div class="carousel" aria-label="Carrusel automático de ropa de trabajo">
+        <div class="carousel-track">
+          <article class="slide slide-one"><div class="product-art jacket"><i></i><b></b><small></small></div><p>01 / Vestuario técnico</p><h2>Alta visibilidad.<br><em>Trabajo visible.</em></h2></article>
+          <article class="slide slide-two"><div class="product-art kit"><i></i><b></b><small></small></div><p>02 / Protección integral</p><h2>Cada riesgo tiene<br><em>su equipo.</em></h2></article>
+          <article class="slide slide-three"><div class="product-art boot"><i></i><b></b><small></small></div><p>03 / Calzado de seguridad</p><h2>Pisa seguro.<br><em>Trabaja mejor.</em></h2></article>
+        </div>
+        <div class="carousel-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+      </div>
+    </section>
+
+    <section class="intro section-light" id="nosotros">
+      <div class="section-label">01 · SOBRE NOSOTROS</div>
+      <div><h2>Cuatro formas de<br><em>reducir el riesgo.</em></h2><p class="section-lead">No vendemos ropa: resolvemos puestos de trabajo. Escuchamos, evaluamos, equipamos y acompañamos para que cada persona tenga la protección que necesita.</p></div>
+    </section>
+    <section class="cards section-light cards-section"><article><span>01</span><h3>Vestuario técnico</h3><p>Prendas cómodas, resistentes y adaptadas a cada entorno profesional.</p></article><article><span>02</span><h3>EPI certificado</h3><p>Protección ocular, auditiva, respiratoria, manos, pies y cabeza.</p></article><article><span>03</span><h3>Asesoramiento</h3><p>Te ayudamos a elegir la norma y el nivel de protección adecuado.</p></article><article><span>04</span><h3>Reposición</h3><p>Control de tallas, stock y sustitución para que nunca falte protección.</p></article></section>
+
+    <section class="dark-split">
+      <div class="abstract-image safety-grid"><span>VESTIALPRO</span><i></i><b></b><strong></strong></div>
+      <div><p class="eyebrow">02 · NUESTRO MÉTODO</p><h2>Cada puesto tiene<br><em>su barrera.</em></h2><p>Antes de recomendar una prenda o un equipo, entendemos el trabajo real y sus riesgos.</p><ol><li><b>Leemos el riesgo</b><small>Qué golpea, qué quema, qué corta y durante cuántas horas.</small></li><li><b>Elegimos la norma</b><small>La protección correcta para el riesgo concreto.</small></li><li><b>Ajustamos a la persona</b><small>Talla, comodidad, prueba y alternativas.</small></li></ol></div>
+    </section>
+
+    <section class="normativa section-light" id="normativa"><div class="section-label">03 · MARCO NORMATIVO</div><div><h2>La norma no es papeleo.<br><em>Es lo que evita el accidente.</em></h2><p class="section-lead">Seleccionamos equipos conforme al Reglamento (UE) 2016/425, el Real Decreto 773/1997 y las normas UNE-EN aplicables.</p><div class="norma-grid"><article><span>01</span><h3>Marcado CE</h3><p>Garantía de evaluación de conformidad del equipo.</p></article><article><span>02</span><h3>Categorías I, II y III</h3><p>El nivel de protección depende del riesgo.</p></article><article><span>03</span><h3>Normas UNE-EN</h3><p>Requisitos técnicos para cada familia de EPI.</p></article></div></div></section>
+
+    <section class="catalogos section-light" id="catalogos"><div class="section-label">04 · CATÁLOGOS</div><div class="catalog-box"><div class="pdf-icon">PDF</div><div><h2>Catálogos<br><em>en preparación.</em></h2><p>Estamos preparando nuestras nuevas ediciones de vestuario técnico, calzado y protección individual. Mientras tanto, escríbenos y te enviamos la ficha que necesites.</p><a class="button" href="#contacto">Pedir una ficha técnica <span>→</span></a></div></div></section>
+
+    <section class="contacto" id="contacto"><div><p class="eyebrow">05 · HABLEMOS</p><h2>Cuéntanos qué<br><em>necesitas.</em></h2><p>Nombre, puesto, número de personas y riesgo a cubrir. Te responderemos con una propuesta concreta.</p></div><div class="contact-card"><p>VESTIALPRO · TORRE PACHECO</p><a href="mailto:hola@vestialpro.es">hola@vestialpro.es</a><a href="tel:+34968000000">968 000 000</a><span>Polígono Industrial Las Salinas, nave 12<br>30700 Torre Pacheco · Murcia</span><a class="button" href="mailto:hola@vestialpro.es?subject=Consulta%20web%20VESTIALPRO">Enviar consulta <span>→</span></a></div></section>
+  </main>
+
+  <footer><div class="footer-main"><img src="logo.png" alt="VESTIALPRO"><div><a href="#nosotros">Sobre nosotros</a><a href="#normativa">Normativa</a><a href="#catalogos">Catálogos</a><a href="#contacto">Contacto</a></div><div><a href="#privacidad">Privacidad</a><a href="#proteccion">Protección de datos</a><a href="#cookies">Cookies</a></div></div><div class="footer-bottom"><span>© 2026 VESTIALPRO, S.L.</span><strong>🍈 Hecho en Torre Pacheco</strong></div></footer>
+  <section class="legal-notes" aria-label="Información legal"><div id="privacidad"><h2>Política de privacidad</h2><p>Los datos enviados por correo se utilizan únicamente para responder a tu consulta y no se ceden a terceros salvo obligación legal.</p></div><div id="proteccion"><h2>Protección de datos</h2><p>Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición y limitación escribiendo a hola@vestialpro.es.</p></div><div id="cookies"><h2>Cookies</h2><p>Esta versión HTML no utiliza cookies publicitarias ni de seguimiento.</p></div></section>
+</body>
 </html>
