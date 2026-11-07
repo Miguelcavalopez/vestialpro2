@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "path": "/", "title": "Inicio" },
+    { "path": "/sobre-nosotros", "title": "Sobre nosotros" },
+    { "path": "/normativa", "title": "Normativa" },
+    { "path": "/catalogos", "title": "Catálogos" },
+    { "path": "/contacto", "title": "Contacto" },
+    { "path": "/privacidad", "title": "Política de privacidad" },
+    { "path": "/proteccion-de-datos", "title": "Política de protección de datos" },
+    { "path": "/cookies", "title": "Política de cookies" }
+  ]
+}
